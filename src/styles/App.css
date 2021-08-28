@@ -1,0 +1,33 @@
+html, body {
+  background: black;
+  color: white
+}
+
+#root {
+  min-height: 100vh;
+  user-select: none;
+}
+
+button {
+  height: 100%;
+  width: 100%;
+  font-size: 20px;
+
+  /* border: solid white 2px; */
+  border: none;
+  color: #707070;
+  background: white;
+  transition: background 100ms ease;
+}
+
+button:active {
+  /* animation:  // background white to whatever */
+  background: black;
+}
+
+button.square {
+  border-radius: 8px;
+}
+button.circle {
+  border-radius: 50%;
+}
